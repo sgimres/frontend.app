@@ -78,7 +78,7 @@ export function Footer() {
         </motion.p>
         <span className="w-1.5 h-1.5 bg-base-300 rounded-full"></span>
         <motion.a 
-          href="https://www.github.com/sgimres/teminal.app" 
+          href="https://github.com/sgimres/terminal.app" 
           className="flex items-center gap-2 hover:text-base-content transition-colors group"
           whileHover={{ x: 5 }}
         >

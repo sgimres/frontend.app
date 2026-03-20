@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: dark --default, light;
+}
+
+@layer base {
+  :root {
+    @apply font-sans antialiased;
+  }
+
+  body {
+    @apply min-h-screen relative m-0 overflow-x-hidden bg-base-100 text-base-content;
+  }
+}

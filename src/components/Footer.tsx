@@ -74,11 +74,11 @@ export function Footer() {
 
       <div className="flex justify-center items-center gap-6 mt-16 text-sm text-base-content/40 font-medium">
         <motion.p whileHover={{ color: "var(--color-info)" }} className="cursor-default transition-colors">
-          Built with <span className="text-info">Go + Wish</span>
+          Built with <span className="text-info">(Go + Wish) | (Bun + React)</span>
         </motion.p>
         <span className="w-1.5 h-1.5 bg-base-300 rounded-full"></span>
         <motion.a 
-          href="#" 
+          href="https://www.github.com/sgimres/teminal.app" 
           className="flex items-center gap-2 hover:text-base-content transition-colors group"
           whileHover={{ x: 5 }}
         >

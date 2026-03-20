@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Copy, Check } from "lucide-react";
 
 export function Terminal() {
-  const sshCommand = "ssh user@yourapp.example.com";
+  const sshCommand = "ssh eth0.top";
   const [copied, setCopied] = useState(false);
   
   const handleCopy = () => {

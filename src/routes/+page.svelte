@@ -4,10 +4,11 @@
 
 <h1>Sign Book</h1>
 
+<ul>
 {#each await getSings() as sign (sign.id)}
 	<li>
 		{sign.name} wrote {sign.description}
 	</li>
 {/each}
 
-<ul></ul>
+</ul>
